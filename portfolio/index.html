@@ -1,0 +1,464 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guhan A | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="loading-screen" id="loadingScreen" aria-live="polite" aria-label="Loading portfolio">
+  <div class="loading-mark">GA</div>
+  <p>Loading portfolio</p>
+  <span class="loading-line"></span>
+</div>
+
+<header class="navbar">
+  <div class="container nav-content">
+    <a href="#home" class="logo">Guhan<span>.</span></a>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </div>
+</header>
+
+<main>
+
+<section id="home" class="hero">
+  <div class="container hero-content">
+
+    <div class="hero-text">
+      <div class="hero-greeting-line">
+        <p class="eyebrow hero-greeting">Hi, I'm</p>
+      </div>
+
+      <h1>Guhan <span>A</span></h1>
+
+      <h2>
+        AI & ML Software Engineer &
+        <br>
+        UI/UX Designer
+      </h2>
+
+      <p class="hero-description">
+        I build modern digital experiences by combining
+        software development, AI automation, IoT and
+        user-centered design.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/guhan-xo" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/guhan-a-8682a4284?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">Guhan A</a>
+        <a href="mailto:guhananand2005@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="profile-circle">
+        <img src="img/WhatsApp Image 2026-09-21 at 10.04.17 AM.jpeg" alt="Guhan A portrait">
+      </div>
+
+      <div class="code-window">
+        <div class="window-top">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <pre><code>const developer = {
+  name: "Guhan A",
+  role: "AI & ML Software Engineer",
+  skills: [
+    "Python",
+    "React",
+    "IoT",
+    "UI/UX"
+  ],
+  available: true
+};</code></pre>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+
+    <div class="section-heading">
+      <p>ABOUT ME</p>
+      <h2>Turning ideas into digital experiences.</h2>
+    </div>
+
+    <div class="about-grid">
+      <div>
+        <p class="large-text">
+          I'm a Computer Science graduate interested in
+          AI automation, software development, UI/UX design,
+          IoT and data systems.
+        </p>
+      </div>
+
+      <div>
+        <p>
+          I enjoy solving real-world problems using technology.
+          My experience includes developing IoT systems,
+          dashboards, web applications and automation workflows.
+        </p>
+
+        <p>
+          I focus on creating solutions that are functional,
+          visually clean and easy for people to use.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills" class="section skills-section">
+  <div class="container">
+
+    <div class="section-heading">
+      <p>MY SKILLS</p>
+      <h2>Tools &amp; Technologies</h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon">01</div>
+        <h3>Programming</h3>
+        <p>Python, C, Embedded C, SQL</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">02</div>
+        <h3>Frontend</h3>
+        <p>HTML, CSS, JavaScript, React, Tailwind CSS</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">03</div>
+        <h3>UI / UX</h3>
+        <p>Figma, Canva, Design Thinking, Prototyping</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">04</div>
+        <h3>Technologies</h3>
+        <p>IoT, Power BI, Firebase, Node.js</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">05</div>
+        <h3>Development Tools</h3>
+        <p>GitHub, VS Code, Android Studio, Vite, ESLint</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">06</div>
+        <h3>Automation</h3>
+        <p>AI workflows, n8n, API integrations</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+
+    <div class="section-heading">
+      <p>MY WORK</p>
+      <h2>Featured Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-preview">
+          <img src="img/project-accident.svg" alt="Emergency alert dashboard showing a GPS location and live telemetry">
+          <span class="project-number">01</span>
+        </div>
+
+        <div class="project-content">
+          <span>IoT / Embedded</span>
+
+          <h3>
+            Emergency Accident Alert Transmitter
+          </h3>
+
+          <p>
+            An IoT-based accident detection system that
+            detects crashes and sends emergency alerts
+            with GPS location information.
+          </p>
+
+          <div class="tags">
+            <span>Arduino</span>
+            <span>GPS</span>
+            <span>GSM</span>
+            <span>IoT</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-preview">
+          <img src="img/project-counseling.svg" alt="Student counseling analytics dashboard with a supportive AI chat">
+          <span class="project-number">02</span>
+        </div>
+
+        <div class="project-content">
+          <span>AI / Web</span>
+
+          <h3>
+            Student Dropout Counseling System
+          </h3>
+
+          <p>
+            A digital system designed to identify students
+            who may require academic support and provide
+            counseling assistance.
+          </p>
+
+          <div class="tags">
+            <span>AI</span>
+            <span>Python</span>
+            <span>Web</span>
+            <span>Data</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-preview">
+          <img src="img/project-heart.svg" alt="Heart rate monitor showing a live ECG signal and stable sensor status">
+          <span class="project-number">03</span>
+        </div>
+
+        <div class="project-content">
+          <span>Healthcare / IoT</span>
+
+          <h3>
+            Heart Rate Monitoring System
+          </h3>
+
+          <p>
+            A sensor-based monitoring system designed to
+            collect heart-rate data using a microcontroller.
+          </p>
+
+          <div class="tags">
+            <span>Arduino</span>
+            <span>Sensors</span>
+            <span>Embedded C</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-preview">
+          <img src="img/project-chatbot.svg" alt="Conversational AI interface with message bubbles and API status">
+          <span class="project-number">04</span>
+        </div>
+
+        <div class="project-content">
+          <span>AI / Conversational</span>
+
+          <h3>
+            AI Chatbot
+          </h3>
+
+          <p>
+            An intelligent conversational assistant that
+            answers questions, understands user intent and
+            provides helpful responses in real time.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>AI</span>
+            <span>NLP</span>
+            <span>API</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section experience-section">
+  <div class="container">
+
+    <div class="section-heading">
+      <p>EXPERIENCE</p>
+      <h2>My Journey</h2>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <span>2026</span>
+          <h3>AI Software Engineer Trainee</h3>
+          <h4>Worksbot Applications Pvt. Ltd.</h4>
+          <p>
+            Working with AI software concepts,
+            automation workflows and modern
+            development technologies.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <span>2026</span>
+          <h3>Service Desk Intern</h3>
+          <h4>Capgemini</h4>
+          <p>
+            Gained experience in IT service desk
+            operations, troubleshooting and
+            technical support.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <span>Education</span>
+          <h3>B.E. Computer Science &amp; Engineering</h3>
+          <h4>DMI College of Engineering</h4>
+          <p>
+            Computer Science and Engineering graduate
+            interested in software development,
+            AI, IoT and UI/UX.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="section-heading">
+      <p>CERTIFICATIONS</p>
+      <h2>Learning &amp; Development</h2>
+    </div>
+
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <h3>IoT</h3>
+        <p>NPTEL</p>
+      </div>
+
+      <div class="cert-card">
+        <h3>Google Data Analytics</h3>
+        <p>Google</p>
+      </div>
+
+      <div class="cert-card">
+        <h3>Generative AI Productivity</h3>
+        <p>LinkedIn Learning</p>
+      </div>
+
+      <div class="cert-card">
+        <h3>Networking</h3>
+        <p>Tekshool</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="container contact-content">
+
+    <div class="contact-info">
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+      <h2>
+        Let's build something
+        <span>great.</span>
+      </h2>
+
+      <p>
+        I'm open to opportunities, collaborations
+        and interesting technology projects.
+      </p>
+
+      <p class="contact-details">
+        <a href="tel:+918056079438"><span aria-hidden="true">☎</span>Phone: 8056079438</a>
+        <a href="mailto:guhananand2005@gmail.com"><span aria-hidden="true">✉</span>Email: guhananand2005@gmail.com</a>
+        <a href="https://www.linkedin.com/in/guhan-a-8682a4284?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer"><span aria-hidden="true">in</span>LinkedIn: Guhan A</a>
+        <a href="https://github.com/guhan-xo" target="_blank" rel="noreferrer"><span aria-hidden="true">◈</span>GitHub: guhan-xo</a>
+      </p>
+    </div>
+
+    <form id="contactForm" class="contact-form" action="mailto:guhananand2005@gmail.com" method="post" enctype="text/plain">
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" placeholder="Your name" required>
+      </label>
+      <label class="message-field">
+        <span>Comment</span>
+        <textarea name="message" rows="5" placeholder="Write your comment" required></textarea>
+      </label>
+      <button type="submit" class="btn primary">Send Message →</button>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-content">
+
+    <div>
+      <strong>Guhan<span>.</span></strong>
+      <p>Design. Develop. Innovate.</p>
+    </div>
+
+    <p>
+      © <span id="year"></span>
+      Guhan A. All rights reserved.
+    </p>
+
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
